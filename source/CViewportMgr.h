@@ -2,8 +2,8 @@
 
 class CViewportMgr {
 public:
-    float FindAspectRatio(bool bForce16_9);
-    bool IsWidescreen();
+    float __thiscall FindAspectRatio(bool bForce16_9);
+    bool __thiscall IsWidescreen();
 };
 
 extern CViewportMgr* g_viewPorts;

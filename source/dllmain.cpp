@@ -16,6 +16,7 @@ void FixAspectRatio() {
 
     auto IsWidescreen = get_pattern("51 56 6A ? 8B F1");
     InjectHook(IsWidescreen, &CViewportMgr::IsWidescreen, PATCH_JUMP);
+
 }
 
 void Init() {

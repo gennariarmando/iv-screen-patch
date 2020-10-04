@@ -15,3 +15,4 @@ extern HWND find_main_window();
 extern std::tuple<int32_t, int32_t> GetWindowRes();
 
 extern uint32_t* menuAspectRatio;
+extern void* updatepattern;
